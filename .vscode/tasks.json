@@ -2,10 +2,10 @@
     "version": "2.0.0",
     "tasks": [
       {
-        "label": "program01",
+        "label": "ZADANIE1",
         "type": "shell",
         "command": "g++",
-        "args": ["-fopenmp","-std=c++17", "-Wall", "-o", "prog", "01/main.cpp"],
+        "args": ["-std=c++17", "-Wall", "-o", "prog", "PWiR/ZAD1/main.cpp"],
         "group": {
           "kind": "build",
           "isDefault": true
